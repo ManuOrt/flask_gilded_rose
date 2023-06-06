@@ -50,7 +50,6 @@ Por si no fuera suficiente, tu compañero de empresa al que enviaron a cliente a
     - Realización del CRUD sobre la página del frontend.
 
 ## Funcionalidades
-
 Mi proyecto utiliza una base de datos con diferentes productos, incluyendo información sobre calidad y caducidad. El proyecto cuenta con una API REST que permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) en los productos. Además, se puede acceder a este CRUD tanto desde el cliente Postman como desde el frontend:
 
 1. Crear producto: Permite agregar un nuevo producto a la base de datos, proporcionando información sobre su nombre, calidad y fecha de caducidad.
@@ -69,11 +68,10 @@ Mi proyecto utiliza una base de datos con diferentes productos, incluyendo infor
 
 
 ## Créditos
-
 Este proyecto a sido creado por Manuel Ortega.
 
 ## Contacto
-Github: https://github.com/ManuOrt/Sneaker_Raffle
+Github: https://github.com/ManuOrt/flask_gilded_rose
 
 Email: mortegamarti@cifpfbmoll.eu
 
