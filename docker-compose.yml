@@ -1,0 +1,24 @@
+version: "3"
+services:
+  oliver_web:
+    build:
+      context: .
+      dockerfile: python.dockerfile
+    volumes:
+      - .:/ollivander
+    ports:
+      - '5000:5000'
+    depends_on:
+      - oliver_db
+
+  oliver_db:
+    image: postgres:latest
+    volumes:
+      - postgresqldataoliver:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_PASSWORD: postgres
+
+volumes:
+  postgresqldataoliver:
